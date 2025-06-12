@@ -26,7 +26,27 @@
     height: 100%;
     object-fit: cover;
     display: block;
-    position: relative;
+}
+
+.logo-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'NorseBold', sans-serif;
+    text-align: center;
+    font-size: 6rem;
+    padding: 10px;
+    color: white;
+}
+
+.logo-section img {
+    width: 80px;
 }
 
 .main {
