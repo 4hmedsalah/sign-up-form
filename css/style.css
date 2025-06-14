@@ -55,6 +55,15 @@
     justify-content: center;
 }
 
+.intro p {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.intro p:last-child {
+    margin-bottom: 0;
+}
+
 .photo-credit {
     position: absolute;
     bottom: 0;
