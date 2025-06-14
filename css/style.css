@@ -81,3 +81,62 @@ body {
 .photo-credit a {
     color: rgba(255, 255, 255, 0.726);
 }
+
+form {
+    background-color: white;
+    padding: 30px;
+    width: calc(100% + 60px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.row-container {
+    display: flex;
+    gap: 20px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input {
+    width: 250px;
+    padding: 15px 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.input-container input:focus {
+    outline: none;
+    border-color: #596D48;
+}
+
+.input-container label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s;
+    background: white;
+    padding: 0 5px;
+}
+
+/* When input is focused or has content */
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+    top: 0;
+    left: 8px;
+    font-size: 0.75rem;
+    color: #596D48;
+    transform: translateY(-50%);
+}
+
+.form-text {
+    font-size: 1.5rem;
+}
