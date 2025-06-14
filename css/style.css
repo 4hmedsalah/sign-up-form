@@ -47,8 +47,12 @@
 
 .main {
     width: 75%;
-    padding: 20px;
-    text-align: center;
+    padding: 80px 30px;
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
 }
 
 .photo-credit {
