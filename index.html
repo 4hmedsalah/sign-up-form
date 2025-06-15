@@ -55,12 +55,18 @@
                         <label class="floating" for="phone">Phone Number</label>
                     </div>
                     <div class="input-container">
-                        <input type="password" id="password" name="password" placeholder=" " required>
+                        <input type="password" id="password" name="password" placeholder=" "
+                            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d@$!%*?&#]{8,}"
+                            title="Password must be at least 8 characters with uppercase, lowercase, and a number."
+                            required>
                         <label class="floating" for="password">Password</label>
                     </div>
 
                     <div class="input-container">
-                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder=" " required>
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder=" "
+                            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d@$!%*?&#]{8,}"
+                            title="Password must be at least 8 characters with uppercase, lowercase, and a number."
+                            required>
                         <label class="floating" for="confirmPassword">Confirm Password</label>
                     </div>
                 </div>

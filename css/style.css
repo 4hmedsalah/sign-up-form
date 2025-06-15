@@ -163,3 +163,7 @@ form {
     font-weight: bold;
     text-decoration: none;
 }
+
+input[type="password"]:invalid:focus {
+    border-color: #f44336;
+}
