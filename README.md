@@ -1,6 +1,15 @@
 # Sign-Up Form
 
-A modern, responsive sign-up form built with HTML and CSS.
+A modern, simple sign-up form built with HTML and CSS.
+
+**[Live Preview](https://4hmedsalah.github.io/sign-up-form/)**
+
+![Sign-Up Form Preview](assets/images/preview.png)
+
+<div align="center">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+</div>
 
 ## Features
 
@@ -12,8 +21,8 @@ A modern, responsive sign-up form built with HTML and CSS.
 
 ## Technologies Used
 
-- **HTML**: Semantic markup and form validation
-- **CSS**: Modern styling with flexbox layout and smooth transitions
+- **HTML5**: Semantic markup and form validation
+- **CSS3**: Modern styling with flexbox layout and smooth transitions
 
 ## Getting Started
 
